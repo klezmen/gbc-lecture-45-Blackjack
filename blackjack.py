@@ -12,7 +12,8 @@ try:
 except ImportError:  # python 2
     import Tkinter as tkinter
 
-
+def hi():
+    print ("ok this is a test")
 def load_images(card_images):
     suits = ['heart', 'club', 'diamond', 'spade']
     face_cards = ['jack', 'queen', 'king']
